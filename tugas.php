@@ -16,7 +16,7 @@
             <tr>
                 <td>Nama Pelanggan</td>
                 <td>:</td>
-                <td><input type="text" name="nama" placeholder="Masukan nama anda"></td>
+                <td><input type="text" name="nama" placeholder="Masukan nama anda" required=""></td>
             </tr>
             <tr>
                 <td>Nama Barang</td>

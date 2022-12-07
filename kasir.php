@@ -18,47 +18,45 @@ $hasil = $harga * $jumlah;
 </head>
 
 <body>
-    <h1>Aplikasi Toko</h1>
-    <table>
-        <tr>
-            <td>Nama Pelanggan</td>
-            <td>:</td>
-            <td><?php
-            echo $nama;
-            ?></td>
-        </tr>
-        <tr>
-            <td>Nama Barang</td>
-            <td>:</td>
-            <td><?php
-            echo $nama_barang;
-            ?></td>
-        </tr>
-        <tr>
-            <td>Harga</td>
-            <td>:</td>
-            <td><?php
+    <form action="">
+        <h1>Aplikasi Toko</h1>
+        <table>
+            <tr>
+                <td>Nama Pelanggan</td>
+                <td>:</td>
+                <td><?php   echo $nama;?></td>
+            </tr>
+            <tr>
+                <td>Nama Barang</td>
+                <td>:</td>
+                <td><?php echo $nama_barang;?></td>
+            </tr>
+            <tr>
+                <td>Harga</td>
+                <td>:</td>
+                <td><?php
             echo $harga;
             ?></td>
-        </tr>
-        <tr>
-            <td>Jumlah Barang</td>
-            <td>:</td>
-            <td><?php
+            </tr>
+            <tr>
+                <td>Jumlah Barang</td>
+                <td>:</td>
+                <td><?php
             echo $jumlah_barang;
             ?></td>
-        </tr>
-        <tr>
-            <td>Total Bayar</td>
-            <td>:</td>
-            <td><?php
+            </tr>
+            <tr>
+                <td>Total Bayar</td>
+                <td>:</td>
+                <td><?php
             echo $hasil;
             ?></td>
-        </tr>
-        <tr>
-            <td colspan="3" align="right"><a href="tugas.php"><input type="submit" value="back"></a></td>
-        </tr>
-    </table>
+            </tr>
+            <tr>
+                <td colspan="3" align="right"><a href="tugas.php"><input type="submit" value="back"></a></td>
+            </tr>
+        </table>
+    </form>
 </body>
 
 </html>
