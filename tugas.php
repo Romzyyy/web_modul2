@@ -10,7 +10,7 @@
 
 <body>
 
-    <form action="kasir.php">
+    <form action="kasir.php" method="$POST">
         <h1>Aplikasi Toko</h1>
         <table>
             <tr>
@@ -25,7 +25,7 @@
                     <?php
                 $nama_barang = array('pancake', 'burger', 'pasta');
                 ?>
-                    <select name="nama_barag">
+                    <select name="nama_barang">
                         <?php
                             foreach($nama_barang as $item){
                               echo "<option value='$item'>$item</option>";
