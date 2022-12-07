@@ -9,30 +9,46 @@
 </head>
 
 <body>
-    <h1>Aplikasi Toko</h1>
-    <table>
-        <tr>
-            <td>Nama Pelanggan</td>
-            <td>:</td>
-            <td><input type="text" name="nama" placeholder="Masukan nama anda"></td>
-        </tr>
-        <tr>
-            <td>Nama Barang</td>
-            <td>:</td>
-            <td>
-                <?php
+
+    <form action="kasir.php">
+        <h1>Aplikasi Toko</h1>
+        <table>
+            <tr>
+                <td>Nama Pelanggan</td>
+                <td>:</td>
+                <td><input type="text" name="nama" placeholder="Masukan nama anda"></td>
+            </tr>
+            <tr>
+                <td>Nama Barang</td>
+                <td>:</td>
+                <td>
+                    <?php
                 $nama_barang = array('pancake', 'burger', 'pasta');
                 ?>
-                <select name="nama_barag">
-                    <?php
+                    <select name="nama_barag">
+                        <?php
                             foreach($nama_barang as $item){
                               echo "<option value='$item'>$item</option>";
                          }
                     ?>
-                </select>
-            </td>
-        </tr>
-    </table>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Harga</td>
+                <td>:</td>
+                <td><input type="number" name="harga" placeholder="Masukan harga"></td>
+            </tr>
+            <tr>
+                <td>Jumlah Barang</td>
+                <td>:</td>
+                <td><input type="number" name="jumlah" placeholder="Masukan jumlah barang"></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="right"><input type="submit" name="simpan" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
 </body>
 
 </html>
