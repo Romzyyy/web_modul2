@@ -10,7 +10,7 @@
 
 <body>
 
-    <form action="kasir.php" method="$POST">
+    <form action="kasir.php" method="post">
         <h1>Aplikasi Toko</h1>
         <table>
             <tr>

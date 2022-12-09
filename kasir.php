@@ -24,25 +24,25 @@ $hasil = $harga * $jumlah;
             <tr>
                 <td>Nama Pelanggan</td>
                 <td>:</td>
-                <td><?php   echo $nama;?></td>
+                <td><?php   echo "$nama";?></td>
             </tr>
             <tr>
                 <td>Nama Barang</td>
                 <td>:</td>
-                <td><?php echo $nama_barang;?></td>
+                <td><?php echo "$nama_barang";?></td>
             </tr>
             <tr>
                 <td>Harga</td>
                 <td>:</td>
                 <td><?php
-            echo $harga;
+            echo "$harga";
             ?></td>
             </tr>
             <tr>
                 <td>Jumlah Barang</td>
                 <td>:</td>
                 <td><?php
-            echo $jumlah_barang;
+            echo "$jumlah_barang";
             ?></td>
             </tr>
             <tr>
