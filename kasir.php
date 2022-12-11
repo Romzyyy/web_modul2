@@ -42,7 +42,7 @@ $hasil = $harga * $jumlah;
                 <td>Jumlah Barang</td>
                 <td>:</td>
                 <td><?php
-            echo "$jumlah_barang";
+            echo "$jumlah";
             ?></td>
             </tr>
             <tr>
